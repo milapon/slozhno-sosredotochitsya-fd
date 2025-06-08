@@ -2,10 +2,17 @@
 .page {
   display: grid;
   grid-template-rows: auto 1fr auto;
-  background-color: var(--change-color, #000028);
-  font-family: var(--font-family, monospace);
+  background-color: var(--bg-color);
+  background-image: var(--bg-image);
+  font-family: var(--font-family);
   height: 100vh; 
   width: 100vw;
+  object-fit: cover;
+  object-position: center;  
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .main {
@@ -22,16 +29,8 @@
   position: relative;
   min-width: 375px;
   min-height: 668px;
-  /* height: 100vh; */
   padding-inline: 10px;
   padding-block: 10px;
-  object-fit: cover;
-  object-position: center;  
-  background-size: cover;
-  background-position:center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-
 }
 
 .big__title {
@@ -101,6 +100,7 @@
 
 .decorated-zone::before {
   top: 10px;
+  right: 10px;
   border-left: none;
   border-bottom: none;
 }
@@ -124,7 +124,7 @@
   display: flex;
   flex-direction: column;
   align-items: end;
-  gap: 10px;
+  gap: 8px; /* для выравнивания */
   list-style: none;
 }
 
@@ -247,10 +247,11 @@ a:focus-visible {
   .header .content__text {
     width: 364px;
     justify-self: end;
+    margin-block-end: 15px;
   }
 
 .section-content__why {
-  grid-template-columns: 32% 65%;
+  grid-template-columns: 32.5% 64%;
   gap: 20px;
 }
 
@@ -268,7 +269,7 @@ a:focus-visible {
 }
 
 .section-content__how {
-  grid-template-columns: 32% 65%;
+  grid-template-columns: 32.5% 64%;
 }
 
 .section-content__how .section__card  {

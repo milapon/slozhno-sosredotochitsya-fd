@@ -11,15 +11,12 @@
 
 .theme-light .page {
   background-color: var(--bg-color);
+  background-image: var(--bg-image);
 }
 
-.theme-light .header {
+/* .theme-light .header {
   background-image: var(--bg-image);
-  background-size: cover;
-  background-position:center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
+} */
 
 .theme-light .header__rec {
   display: none;
