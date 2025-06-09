@@ -6,6 +6,7 @@
   --bg-image: url(../images/cover-image-dark.png);
   --decor-color-text: #DB00FF;
   --change-color: #ff0070;
+  --change-transparent: rgba(255,0,112, 0.4);
   }
 
 .theme-dark .page {

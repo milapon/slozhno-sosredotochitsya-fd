@@ -9,5 +9,6 @@
   --decor-color-text: #DB00FF;
   --change-color: #ff0070;
   --decor-title-text: #000028;
+  --change-transparent: rgba(255,0,112, 0.4);
 }
 
