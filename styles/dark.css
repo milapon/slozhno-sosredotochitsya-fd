@@ -12,20 +12,7 @@
   /* Вам также нужно будет написать ряд подобных селекторов */
   background-color: var(--bg-color);
   background-image: var(--bg-image);
-  /* background-size: cover;
-  background-position:center;
-  background-repeat: no-repeat;
-  background-attachment: fixed; */
-  
 }
-
- /* .theme-dark .header {
-  background-image: var(--bg-image);
-  background-size: cover;
-  background-position:center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
- } */
 
  .theme-dark .color__title__text {
   color: var(--accent-color, #FF0070);

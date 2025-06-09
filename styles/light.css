@@ -14,10 +14,6 @@
   background-image: var(--bg-image);
 }
 
-/* .theme-light .header {
-  background-image: var(--bg-image);
-} */
-
 .theme-light .header__rec {
   display: none;
 }
@@ -25,6 +21,8 @@
 .theme-light .header__rec::after {
   display: none;
 }
+
+
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -36,4 +34,5 @@
     --change-color: #353430;
     --decor-title-text: #353430;
   }
+
 }
