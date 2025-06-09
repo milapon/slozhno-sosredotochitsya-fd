@@ -22,8 +22,6 @@
   display: none;
 }
 
-
-
 @media (prefers-color-scheme: light) {
   :root {
     --accent-color: #ff8dcb;
