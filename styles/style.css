@@ -149,8 +149,7 @@
 
 .header__theme-menu-button:hover {
   /* Наведение */
-  border-color: var(--change-color);
-  outline-offset: 0.5px;
+  border: 0.4px solid var(--change-color);
 }
 
 .header__theme-menu-button:focus {

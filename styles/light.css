@@ -7,7 +7,6 @@
   --decor-color-text: #FFC2E6;
   --change-color: #353430;
   --decor-title-text: #353430;
-  --change-transparent: rgb(53,52,48, 0.4);
 }
 
 .theme-light .page {
@@ -32,7 +31,6 @@
     --decor-color-text: #FFC2E6;
     --change-color: #353430;
     --decor-title-text: #353430;
-    --change-transparent: rgb(53,52,48, 0.4);
   }
 
 }
