@@ -7,18 +7,11 @@
   --decor-color-text: #FFC2E6;
   --change-color: #353430;
   --decor-title-text: #353430;
-}
-
-.theme-light .page {
-  background-color: var(--bg-color);
-  background-image: var(--bg-image);
+  --change-transparent: #35343040;
+  --paragraf-text: #353430;
 }
 
 .theme-light .header__rec {
-  display: none;
-}
-
-.theme-light .header__rec::after {
   display: none;
 }
 
@@ -31,6 +24,8 @@
     --decor-color-text: #FFC2E6;
     --change-color: #353430;
     --decor-title-text: #353430;
+    --change-transparent: #35343040;
+    --paragraf-text: #353430;
   }
 
 }

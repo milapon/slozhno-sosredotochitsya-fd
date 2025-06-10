@@ -6,34 +6,6 @@
   --bg-image: url(../images/cover-image-dark.png);
   --decor-color-text: #DB00FF;
   --change-color: #ff0070;
+  --change-transparent: #ff007040;
+  --paragraf-text: #F1B2CE;
   }
-
-.theme-dark .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
-  background-color: var(--bg-color);
-  background-image: var(--bg-image);
-}
-
- .theme-dark .color__title__text {
-  color: var(--accent-color, #FF0070);
-}
-
-.theme-dark .header__rec {
-  position: absolute;
-  /* top: 10px;
-  right: 19px; */
-  font-size: 18px;
-  font-weight: normal;
-  color: var(--accent-color);
-} 
-
-.theme-dark .header__rec::after {
-  content: "";
-  display: inline-block;
-  width: 9px;
-  height: 9px;
-  background-color: var(--accent-color);
-  border-radius: 50%;
-  box-shadow: 0px 0px 4px 2px #FF0070;
-  margin-inline-start: 10px;
-}
