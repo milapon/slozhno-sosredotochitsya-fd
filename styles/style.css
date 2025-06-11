@@ -132,7 +132,7 @@
   display: flex;
   flex-direction: column;
   align-items: end;
-  gap: 8px; /* для выравнивания */
+  gap: 10px; /* для выравнивания */
   list-style: none;
 }
 
@@ -161,13 +161,10 @@
 }
 
 .header__theme-menu-button:focus {
-  /* подчеркивание при наведении мышкой */
   outline: none;
-  border-bottom: 1px solid var(--change-color);
 }
 
 .header__theme-menu-button:focus-visible {
-  outline: none;
   border-bottom: 1px solid var(--change-color);
 }
 
@@ -216,7 +213,6 @@ a:focus-visible {
   justify-content: center;
   align-items: center;
   position: relative;
-  /* min-width: 375px; */
   min-block-size: 667px;
   height: 100vh;
 }
@@ -244,7 +240,7 @@ a:focus-visible {
   .header .content__text {
     width: 364px;
     justify-self: end;
-    margin-block-end: 15px;
+    margin-block-end: 10px;
   }
 
   .section-content__why {

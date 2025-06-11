@@ -9,3 +9,7 @@
   --change-transparent: #ff007040;
   --paragraf-text: #F1B2CE;
   }
+
+  .theme-dark .header__rec {
+    display: block;
+  }

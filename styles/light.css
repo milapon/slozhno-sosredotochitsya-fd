@@ -11,10 +11,6 @@
   --paragraf-text: #353430;
 }
 
-.theme-light .header__rec {
-  display: none;
-}
-
 @media (prefers-color-scheme: light) {
   :root {
     --accent-color: #ff8dcb;
@@ -26,6 +22,10 @@
     --decor-title-text: #353430;
     --change-transparent: #35343040;
     --paragraf-text: #353430;
+  }
+
+  .header__rec {
+    display: none;
   }
 
 }
