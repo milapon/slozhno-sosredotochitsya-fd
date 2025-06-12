@@ -11,6 +11,10 @@
   --paragraf-text: #353430;
 }
 
+.theme-light .header__rec {
+  display: none;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     --accent-color: #ff8dcb;
